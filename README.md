@@ -2,7 +2,7 @@
 project of a Genius game built with vanilla javascript + css + html.
 
 ## Example
-![Alt Text](https://media.giphy.com/media/gt3LWhK1fLGe1Ork7R/giphy.gif)
+![Genius](https://user-images.githubusercontent.com/23657514/154719273-bb2963b6-c6e8-41a0-a5f2-b2fe5c872df3.gif)
 
 ## Explanation
 Genius was a very popular game in the 80's, that seeks to stimulate memoryzing of color and sounds. It had colored buttons that emitted sounds and lit up in sequence. The player had to hit  the correct sequence.  
