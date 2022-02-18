@@ -11,7 +11,7 @@ const powerButton = document.querySelector('#on');
 const strictButton = document.querySelector('#strict');
 const startButton = document.querySelector('#start');
 
-const ROUNDS = 5;
+const ROUNDS = 10; //CHANGE THIS TO DETERMINE HOW MANY ROUNDS
 
 let computerOrder = [];
 let playerOrder = [];
