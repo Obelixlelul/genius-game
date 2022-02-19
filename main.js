@@ -11,7 +11,7 @@ const powerButton = document.querySelector('#on');
 const strictButton = document.querySelector('#strict');
 const startButton = document.querySelector('#start');
 
-const ROUNDS = 10; //CHANGE THIS TO DETERMINE HOW MANY ROUNDS
+const ROUNDS = 5; //CHANGE THIS TO DETERMINE HOW MANY ROUNDS
 
 let computerOrder = [];
 let playerOrder = [];
@@ -247,7 +247,7 @@ function reset(){
     round = 1; //Whats round is
      flash = 0; //determine how many colors will be flash
     clicks = 0;
-    winnerFlag;
+    winnerFlag = 0;
 }
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> CHECK IF CLICKED WRONG BUTTON
