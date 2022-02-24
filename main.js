@@ -230,12 +230,22 @@ function ablePointerEvents() {
     red.style.pointerEvents = "auto";
     yellow.style.pointerEvents = "auto";
     blue.style.pointerEvents = "auto";
+
+    green.style.cursor = "pointer";
+    red.style.cursor = "pointer";
+    yellow.style.cursor = "pointer";
+    blue.style.cursor = "pointer";
 }
 function disablePointerEvents() {
     green.style.pointerEvents = "none";
     red.style.pointerEvents = "none";
     yellow.style.pointerEvents = "none";
     blue.style.pointerEvents = "none";
+    
+    green.style.cursor = "default";
+    red.style.cursor = "default";
+    yellow.style.cursor = "default";
+    blue.style.cursor = "default";
 }
 
 function reset(){
